@@ -71,3 +71,4 @@ my_tuple = (0,1,2,3,4)
 res2 = my_tuple[:]
 print(res2)
 print(type(res2))
+print("----------")
