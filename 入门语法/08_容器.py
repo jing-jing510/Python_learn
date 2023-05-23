@@ -47,7 +47,7 @@
             set.difference(集合2)  取差
             set.difference_update(集合2) 取插 并删除 set中存在的
             set1.union(set2)  合并,并去重
-            len(set1) 
+            len(set1)
     dict:
 """
 list1 = ["1", '2', '3', 1, [1, 2, 3], True]
