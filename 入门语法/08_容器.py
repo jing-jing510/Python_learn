@@ -48,7 +48,17 @@
             set.difference_update(集合2) 取插 并删除 set中存在的
             set1.union(set2)  合并,并去重
             len(set1)
-    dict:
+    dict: K-V结构  {k:v,k:v,k:v}  dict()  {}
+         key 不可以重复 多项key覆盖掉
+         获取值 dict["key"]
+         k/v 可以使任意类型
+         方法:
+            dict[key]=value  新增或修改元素
+            dict.pop(key)  删除元素
+            dict.clear() 清空
+            dict.keys() 获取全部的key
+            len(dict) 元素数量 长度
+
 """
 list1 = ["1", '2', '3', 1, [1, 2, 3], True]
 print(list1)
